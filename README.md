@@ -1,5 +1,5 @@
 # GhostingAnimView
-Android 残影数字动画效果实现（Kotlin）
+Android 残影数字属性动画效果实现（Kotlin）
 
 实现详解见个人博客：[Android 残影数字动画实现详解](https://www.chenwenguan.com/android-ghosting-number-anim-view/)
 
