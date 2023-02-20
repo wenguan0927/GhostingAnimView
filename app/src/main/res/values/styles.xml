@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TaiTriangleView">
+        <attr name="overlay_margin" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="TaiScoreTextView">
+        <attr name="stroke_color" format="color"/>
+        <attr name="stroke_width" format="dimension"/>
+    </declare-styleable>
+</resources>

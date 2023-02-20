@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.widget.anim.ghosting.ScoreTextView
+        android:id="@+id/scoreNumShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingRight="15dp"
+        android:shadowColor="@color/score_num_text_color"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="@color/score_num_text_color"
+        android:textSize="@dimen/score_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/scoreNum"
+        app:layout_constraintRight_toRightOf="@+id/scoreNum"
+        app:layout_constraintTop_toTopOf="@+id/scoreNum"
+        app:stroke_color="@color/score_num_text_color"
+        app:stroke_width="@dimen/score_anim_stroke_width" />
+
+    <com.widget.anim.ghosting.ScoreTextView
+        android:id="@+id/scoreNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="15dp"
+        android:shadowColor="@color/score_num_text_color"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="@color/score_num_text_color"
+        android:textSize="@dimen/score_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:stroke_color="@color/score_num_text_color"
+        app:stroke_width="@dimen/score_anim_stroke_width" />
+
+    <com.widget.anim.ghosting.ScoreTextView
+        android:id="@+id/scorePlusShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp"
+        android:shadowColor="@color/score_num_text_color"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="@color/score_num_text_color"
+        android:textSize="@dimen/x_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/scorePlus"
+        app:layout_constraintLeft_toLeftOf="@+id/scorePlus"
+        app:layout_constraintTop_toTopOf="@+id/scorePlus"
+        app:stroke_color="@color/score_num_text_color"
+        app:stroke_width="@dimen/score_anim_stroke_width" />
+
+    <com.widget.anim.ghosting.ScoreTextView
+        android:id="@+id/scorePlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp"
+        android:shadowColor="@color/score_num_text_color"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="@color/score_num_text_color"
+        android:textSize="@dimen/x_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/scoreNum"
+        app:layout_constraintRight_toLeftOf="@+id/scoreNum"
+        app:stroke_color="@color/score_num_text_color"
+        app:stroke_width="@dimen/score_anim_stroke_width" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
