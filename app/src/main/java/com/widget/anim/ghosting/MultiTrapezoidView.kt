@@ -32,8 +32,8 @@ class MultiTrapezoidView @JvmOverloads constructor(
 
     init {
         val typeArry =
-            context.obtainStyledAttributes(attrs, R.styleable.TaiTriangleView, defStyleAttr, 0)
-        overLayMargin = typeArry.getDimension(R.styleable.TaiTriangleView_overlay_margin, 12F)
+            context.obtainStyledAttributes(attrs, R.styleable.TriangleView, defStyleAttr, 0)
+        overLayMargin = typeArry.getDimension(R.styleable.TriangleView_overlay_margin, 12F)
         typeArry?.recycle()
     }
 
